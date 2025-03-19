@@ -11,7 +11,7 @@ const Resume = () => {
         <p>EdX CodingBootcamp</p>
         <br></br>
         <h1 style={{color: 'black'}} fontSize={100} className="resume-title">Skills</h1>
-        <p>Coding</p>
+        <p>Front-End Development</p>
         <br></br>
         <h1 style={{color: 'black'}} fontSize={100} className="resume-title">Interests</h1>
         <p>Building billion $$$ companies</p>
