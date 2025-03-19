@@ -1,11 +1,11 @@
 import React from 'react';
-import weatherDash from '../pictures/weatherdash.png';
-import kanbanBoard from '../pictures/kanbanboard.png';
-import frenchFootsteps from '../pictures/frenchfootsteps.png';
-import candidateFinder from '../pictures/candidatefinder.png';
-import gainsGrains from '../pictures/gainsgrains.png';
-import hrAssessment from '../pictures/hrassessment.png';
-import comingSoon from '../pictures/comingsoon.png';
+import weatherDash from '/images/weatherDash.png';
+import candidateFinder from '/images/candidateFinder.png';
+import frenchFootsteps from '/images/frenchFootsteps.png';
+import gainsGrains from '/images/gainsGrains.png';
+import hrAssessment from '/images/hrAssessment.png';
+import kanbanBoard from '/images/kanbanBoard.png';
+
 
 const Projects = () => {
   return (
@@ -14,7 +14,7 @@ const Projects = () => {
       <div className="projects-grid">
         <div className="project-card">
           <div className="project-image">
-            <img src={weatherDash} alt="Weather Dashboard" />
+            <img src= {weatherDash} alt="Weather Dashboard" />
           </div>
           <div className="project-info">
             <h3>Weather Dashboard</h3>
@@ -48,6 +48,7 @@ const Projects = () => {
           </div>
         </div>
 
+        {/* Project 3 */}
         <div className="project-card">
           <div className="project-image">
             <img src={frenchFootsteps} alt="Project 3" />
@@ -66,6 +67,7 @@ const Projects = () => {
           </div>
         </div>
 
+        {/* Project 4 */}
         <div className="project-card">
           <div className="project-image">
             <img src={candidateFinder} alt="Project 4" />
