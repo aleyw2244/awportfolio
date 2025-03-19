@@ -14,7 +14,7 @@ const Resume = () => {
         <p>Coding</p>
         <br></br>
         <h1 style={{color: 'black'}} fontSize={100} className="resume-title">Interests</h1>
-        <p>Building billion dollar companies</p>
+        <p>Building billion $$$ companies</p>
       </div>
       <div className="resume-image-container">
         <img 
